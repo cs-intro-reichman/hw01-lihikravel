@@ -5,8 +5,8 @@ public class LinearEq {
         double c = Double.parseDouble(args[2]);
         System.out.println(a + " * " + "x " + "+ " + b + " = " + c);
         double midSum = c - b;
-        double findx = midSum / a; 
+        double x = midSum / a; 
           
-        System.out.println("findx " + "= " + x );
+        System.out.println("x " + "= " + x );
     }
 }
