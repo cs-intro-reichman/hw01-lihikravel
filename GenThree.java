@@ -1,6 +1,6 @@
-public class GenThree {
-	public static void main(String[] args) {	
-		 int a = Integer.parseInt(args[0]);
+public class GenTree {
+    public static void main(String[] args) {
+        int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
         int range = b - a;
         
@@ -10,9 +10,11 @@ public class GenThree {
         System.out.println(randomNumber1);
         System.out.println(randomNumber2);
         System.out.println(randomNumber3);
+        int x= 0;
 
         int mid = Math.min(randomNumber1, randomNumber2);
         int min = Math.min(mid, randomNumber3); 
         System.out.println("The minimal generated number was " + min);
-	}
+          
+    }
 }
