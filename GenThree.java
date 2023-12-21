@@ -10,7 +10,7 @@ public class GenTree {
         System.out.println(randomNumber1);
         System.out.println(randomNumber2);
         System.out.println(randomNumber3);
-        int x= 0;
+        
 
         int mid = Math.min(randomNumber1, randomNumber2);
         int min = Math.min(mid, randomNumber3); 
