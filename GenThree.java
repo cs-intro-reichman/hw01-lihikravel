@@ -1,4 +1,4 @@
-public class GenTree {
+public class GenThree {
     public static void main(String[] args) {
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
@@ -10,7 +10,7 @@ public class GenTree {
         System.out.println(randomNumber1);
         System.out.println(randomNumber2);
         System.out.println(randomNumber3);
-        int x=0;
+        
         
 
         int mid = Math.min(randomNumber1, randomNumber2);
