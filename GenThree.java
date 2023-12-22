@@ -3,6 +3,7 @@ public class GenThree {
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
         int range = b - a;
+        int x= 0;
         
         int randomNumber1 = (int)(Math.random() * (range)) + a ;
         int randomNumber2 = (int)(Math.random() * (range)) + a ;
